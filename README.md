@@ -10,11 +10,11 @@
   </p>
   </div> 
   
-  > 1. Assignment 1 - (Operators, Functions, Condition,Events)
+  > 1. Assignment 1 - (Operators, Functions, Condition,Events) [visit code](https://github.com/rajperficient01/JS-Training-Assignments/blob/main/assignment1.html)
   
-  > 2. Assignment 2 - (String and its methods)
+  > 2. Assignment 2 - (String and its methods) [visit code](https://github.com/rajperficient01/JS-Training-Assignments/blob/main/assignment2.html)
   
-  > 3. Assignment 3 (Objects)
+  > 3. Assignment 3 (Objects) [visit code](https://github.com/rajperficient01/JS-Training-Assignments/blob/main/assignment3.html)
 
 
 
