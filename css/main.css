@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+ul{
+    list-style: none;
+}
+.txt-center{
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.container .content{
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-top: 40px;
+}
+.container .content h1{
+    font-size: 24px;
+    padding: 20px 0;
+}
+.container .content .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .content label{
+    text-align:left;
+    display: block;
+    padding: 8px 0 10px 0;
+}
+.container .content input{
+    padding: 12px 30px;
+    border: none;
+    outline: none;
+    background-color: #f4f4f4;
+    border: 1px solid rgba(78, 78, 78, 0.3);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;;
+}
+
+.container .content button{
+    border: none;
+    outline: none;
+    background-color: #888787;
+    border: 2px solid rgba(61, 61, 61, 0.582);
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.container .result{
+    border: 4px solid rgba(1,1,1,.2);
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    display: none;
+}
+.problem-stmt{
+    border: 1px solid #4e4d4d;
+    padding: 14px;
+    margin: 0 30px;
+}
+
