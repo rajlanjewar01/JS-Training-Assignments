@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Epilogue', sans-serif;
 }
 ul{
     list-style: none;
@@ -72,5 +72,42 @@ ul{
     border: 1px solid #4e4d4d;
     padding: 14px;
     margin: 0 30px;
+}
+
+/*index*/
+.index-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%; 
+    position: relative;
+}
+.index-container .container-text{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255,255,255,0.25);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+}
+.index-container .container-text ul{
+    text-align: center;
+}
+.index-container .container-text ul li{
+    padding: 8px 0;
+}
+.index-container .container-text h1{
+    font-size: 54px;
+    text-align: center;
+    color: #1D2C35;
+}
+.index-overlay{
+    background-color: rgba(255,255,255,.3);
+    width: 100%;
+    height: 100%;
 }
 
