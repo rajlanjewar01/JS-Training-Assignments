@@ -1,8 +1,8 @@
 var form1 = document.querySelector("#frm-1");
 var result = document.querySelector(".result");
 var resultFname = document.querySelector("#result-fname");
-var resultLname = document.querySelector("#result-lname")
-var resultEmail = document.querySelector("#result-email")
+var resultLname = document.querySelector("#result-lname");
+var resultEmail = document.querySelector("#result-email");
 
 form1.addEventListener("submit",function(e){
     e.preventDefault();
