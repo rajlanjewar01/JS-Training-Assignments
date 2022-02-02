@@ -8,10 +8,10 @@ form1.addEventListener("submit",function(e){
     e.preventDefault();
     var resultAge = document.querySelector("#age-res");
     
-    var fname = document.querySelector("#fname").value;
-    var lname = document.querySelector("#lname").value;
-    var email = document.querySelector("#email").value;
-    var age = document.querySelector("#age").value;
+    var fname = e.target.fname.value;
+    var lname = e.target.lname.value;
+    var email = e.target.email.value;
+    var age = e.target.age.value;
     age = parseInt(age);
 
     result.style.display = "block";
